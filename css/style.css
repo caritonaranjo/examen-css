@@ -1,0 +1,160 @@
+@font-face{
+	font-family: "DancingScript-Bold";
+	src:url(DancingScript-Bold.ttf);
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	align-items: baseline;
+	background-color: #5b7989;
+	margin: 1em auto;
+	border-radius: 10px;
+	font-family:"DancingScript-Bold";
+	justify-content: space-between;
+	padding: 1em;
+	box-shadow: 10px 5px 5px black;
+
+}
+h1{
+	color: white;
+	text-shadow: 1px 1px 2px #02010a;
+	font-size: 3em;
+	text-align: left
+}
+header nav{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 30%;
+	align-items: flex-end; 
+	word-spacing: 20px;
+
+
+
+}
+header nav a{
+	color: white;
+	font-size: 2em;
+	text-align: right;
+	
+
+}
+a.active{
+	text-decoration: none;
+}
+section{
+	background-color: #82c3a6;
+	margin: 1em;
+	padding: 1em;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px black;
+
+	
+
+}
+#contenido figure img{
+	display: flex;
+	flex-flow: row;
+	width: 98%;
+	margin: 1em auto;
+	padding: 1em;	
+}
+.imagen1{
+	border-radius: 20px;
+	
+}
+.contenido {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 98%;
+	margin: 1em auto;
+	padding: 1em;
+	box-shadow: 10px 5px 5px black;
+}
+.imagen img{
+	width: 500px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow:  2px 2px 2px #02010a;
+	
+
+}
+figcaption{
+	font-family:"DancingScript-Bold";
+	text-align: center;
+	padding: 1em;
+}
+#imagenes2 {
+	display: flex;
+	flex-direction: row;
+	border: 1em;
+	background-color:  #d5c75f;
+	justify-content: center;
+	box-shadow: 10px 5px 5px black;
+
+}
+#imagenes2 img{
+	width: auto;
+	border: solid black;
+	border-radius: 10px;
+	box-shadow:  2px 2px 2px #02010a;
+}
+.paisajes:hover{
+	transform: rotate(10deg);
+	box-shadow:10px 5px 5px #82c3a6;
+}
+.retratos:hover{
+	transform: translate(5px,-20px);
+	box-shadow:10px 5px 5px #82c3a6;
+}
+#imagen1{
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+}
+.imagen:nth-child(even){
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+#imagen3{
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+
+footer{
+	background-color: #C6d5c5;
+	margin: 1em auto;
+	padding: 1em;
+	width: 98%;
+	font-family: "DancingScript-Bold";
+	color:black;
+	border-radius: 0 0 10px 10px;
+	display:flex;
+	justify-content: space-between;
+	align-items: top;
+	flex-direction: row;
+	box-shadow: 10px 5px 5px black;
+	column-count: 4;
+	box-shadow: 10px 5px 5px black;
+	border-radius: 10px
+	
+}
+div{
+	width: 25%;
+	
+	
+}
+ footer h3{
+	margin-top: 1px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 2em
+}
+footer a img{
+	vertical-align: middle;
+	padding: 1em
+}
+
+
